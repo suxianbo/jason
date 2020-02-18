@@ -1,0 +1,41 @@
+
+
+初始化仓库
+git init
+
+
+查看状态
+git status
+
+添加到暂存区
+git  add   文件名
+git add .
+
+提交
+git commit   -m   '写注释'
+
+查看提交版本
+git log
+
+
+回到历史版本
+git checkout   id
+回到上一版本
+git checkout  -- .
+
+
+复制一份到，新分支
+git  checkout -b new-fenzhi
+
+查看有几个分支
+git  branch
+
+切换分支
+git checkout  fenzhi名
+
+合并分支
+git merge new-fenzhi -m  '写注释'
+
+克隆项目
+git  clone https://github.com/suxianbo/jason.git
+
