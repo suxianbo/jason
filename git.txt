@@ -39,3 +39,17 @@ git merge new-fenzhi -m  '写注释'
 克隆项目
 git  clone https://github.com/suxianbo/jason.git
 
+
+
+echo "# software" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/suxianbo/software.git
+git push -u origin master
+
+
+git remote add origin https://github.com/suxianbo/software.git
+git branch -M master
+git push -u origin master
